@@ -1,8 +1,8 @@
 # Introduction to Classes and Object-Oriented Programming (OOP)
 
-## Why Use Classes and Functions?
-
 In Python, classes and functions are fundamental concepts that help in organizing and structuring code. They are essential building blocks of object-oriented programming (OOP), which is a programming paradigm that focuses on creating reusable and modular code.
+
+## Why Use Classes and Functions?
 
 Classes allow you to define blueprints for creating objects that encapsulate data and behavior. They provide a way to group related data (attributes) and functions (methods) together into a single unit. By using classes, you can create instances (objects) of that class, each with its own unique set of data.
 
@@ -87,7 +87,8 @@ dog.color  # Output: Brown
 After updating the attributes, we can access their new values using dot notation as well. The `name` attribute of the `dog` instance is now "Max", and the newly added `color` attribute has the value "Brown". This showcases the flexibility of instances in Python, where we can modify and add attributes dynamically, even after the instance has been created.
 
 
----
+## Conclusion
+
 This tutorial provides a basic introduction to classes and object-oriented programming in Python. It explains why classes and functions are important, how a class is structured, and demonstrates the usage of the `__init__` method, attributes, and methods.
 
 Remember, this is just a starting point, and there are many more concepts and features related to classes and OOP in Python. As you continue learning and exploring, you'll encounter topics like inheritance, polymorphism, encapsulation, and more.
