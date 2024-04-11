@@ -1,4 +1,4 @@
-# AI Fundamentals: Building Blocks of AI Solutions with Python
+# AI Fundamentals: Building AI Solutions with Python
 
 This repository is designed to provide you with a foundation in the basic building blocks of creating AI solutions using Python. 
 
