@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 class DataService:
     def __init__(self):
-        self.input_file = "data/sales_data.csv"
-        self.output_file = "data/sales_data_processed.csv"
+        self.input_file = "data/raw/sales_data.csv"
+        self.output_file = "data/interim/sales_data_calculations.csv"
         self.data = None
         self.report = None
 
@@ -27,7 +27,7 @@ class DataService:
         )
         report["avg_price"] = report["total_sales"] / report["quantity"]
         self.report = report
-        report.to_csv("data/sales_report.csv", index=False)
+        report.to_csv("data/processed/sales_report.csv", index=False)
         print("Sales report generated: data/sales_report.csv")
 
     def configure_plot_style(self):
@@ -36,7 +36,7 @@ class DataService:
 
     def generate_chart(self):
         self.configure_plot_style()
-        report = pd.read_csv("data/sales_report.csv")
+        report = pd.read_csv("data/processed/sales_report.csv")
         products = report["product"]
         total_sales = report["total_sales"]
 
