@@ -80,6 +80,7 @@ We can also assign new values to the attributes of an instance using dot notatio
 ```python
 dog.name = "Max"
 dog.color = "Brown"
+
 dog.name  # Output: Max
 dog.color  # Output: Brown
 ```
