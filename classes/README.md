@@ -1,4 +1,4 @@
-# Introduction to Classes and Object-Oriented Programming (OOP) in Python
+# Introduction to Classes and Object-Oriented Programming (OOP)
 
 ## Why Use Classes and Functions?
 
