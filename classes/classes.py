@@ -38,3 +38,14 @@ dog.species  # Output: Dog
 
 dog.introduce()  # Output: Hello, my name is Buddy and I am a Dog.
 cat.introduce()  # Output: Hello, my name is Whiskers and I am a Cat.
+
+
+# --------------------------------------------------------------
+# Update the attributes of the instance
+# --------------------------------------------------------------
+
+dog.name = "Max"
+dog.color = "Brown"
+
+dog.name  # Output: Max
+dog.color  # Output: Brown
