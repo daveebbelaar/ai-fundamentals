@@ -57,4 +57,4 @@ api_key = os.environ['OPENAI_API_KEY']
 
 ## Tutorials
 
-For video tutorials on how to use the LangChain library and run experiments, visit the YouTube channel: [youtube.com/@daveebbelaar](https://www.youtube.com/channel/UCn8ujwUInbJkBhffxqAPBVQ?sub_confirmation=1)
+For video tutorials on how to use this repository and run experiments, visit the YouTube channel: [youtube.com/@daveebbelaar](https://www.youtube.com/channel/UCn8ujwUInbJkBhffxqAPBVQ?sub_confirmation=1)
